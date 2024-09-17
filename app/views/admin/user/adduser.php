@@ -1,0 +1,1 @@
+<h1>trang thêm người dùng <?php echo $username?></h1>

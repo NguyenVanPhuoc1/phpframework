@@ -1,0 +1,7 @@
+#bật rewrite
+RewriteEngine On
+#kiem tra file và folder có thỏa mãn điều kiện
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^ index.php [L,QSA]
